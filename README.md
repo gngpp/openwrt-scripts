@@ -1,2 +1,2 @@
-# openwrt-sh
+# optools
 Openwrt initialization script
