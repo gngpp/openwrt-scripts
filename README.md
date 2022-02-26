@@ -1,5 +1,5 @@
-# optools
-Openwrt 系统初始化安装工具箱
+# packages
+Openwrt packages
 
 <details>
   <summary>安装zsh、oh-my-zsh、插件</summary>
