@@ -1,7 +1,9 @@
 # optools
 Openwrt initialization script
 
-- 安装neofetch
+<details>
+  <summary>安装neofetch</summary>
+  
 > 更新wegt的ssl支持
 ``` 
 opkg update
@@ -12,3 +14,4 @@ opkg install wget --force-reinstall
 ```shell
 wget https://raw.githubusercontent.com/zf1976/optools/main/neofetch.sh && sh neofetch -i
 ```
+</details>
