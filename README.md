@@ -7,5 +7,8 @@ Openwrt initialization script
 opkg update
 opkg install libustream-openssl ca-bundle ca-certificates
 opkg install wget --force-reinstall
-wget "https://raw.githubusercontent.com/zf1976/oputils/master/plugins/install.sh" && sh
+```
+> 安装：
+```shell
+wget https://raw.githubusercontent.com/zf1976/optools/main/neofetch.sh && sh neofetch -i
 ```
