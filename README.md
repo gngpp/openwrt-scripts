@@ -1,5 +1,5 @@
 # optools
-Openwrt initialization script
+Openwrt 系统初始化安装工具箱
 
 <details>
   <summary>安装zsh、oh-my-zsh、插件</summary>
