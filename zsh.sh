@@ -1,5 +1,5 @@
 #!/bin/zsh
-opkg update && opkg install zsh wget unzip ca-certificates
+opkg update && opkg install zsh wget unzip ca-certificates git git-http
 
 sh -c "$(wget -O- https://raw.githubusercontent.com/felix-fly/openwrt-ohmyzsh/master/install.sh)"
 
