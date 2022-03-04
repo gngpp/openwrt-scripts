@@ -23,7 +23,7 @@ opkg install wget --force-reinstall
   
 - 安装：
 ```shell
-wget https://raw.githubusercontent.com/zf1976/optools/main/neofetch.sh && sh neofetch -i
+wget https://raw.githubusercontent.com/zf1976/optools/main/neofetch.sh && sh neofetch.sh -i
 ```
   
 </details>
