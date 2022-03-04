@@ -6,7 +6,7 @@ Openwrt packages
 
  - 安装：
 ```shell
-wget https://raw.githubusercontent.com/zf1976/optools/main/zsh.sh && sh zsh.sh
+wget https://raw.githubusercontent.com/zf1976/optools/main/zsh.sh && sh zsh.sh && rm zsh.sh
 ```
 </details>
 
@@ -23,7 +23,7 @@ opkg install wget --force-reinstall
   
 - 安装：
 ```shell
-wget https://raw.githubusercontent.com/zf1976/optools/main/neofetch.sh && sh neofetch.sh -i
+wget https://raw.githubusercontent.com/zf1976/optools/main/neofetch.sh && sh neofetch.sh -i && rm neofetch.sh
 ```
   
 </details>
