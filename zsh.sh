@@ -1,7 +1,8 @@
 #!/bin/zsh
 opkg update && opkg install zsh wget unzip ca-certificates git git-http
 
-sh -c "$(wget -O- https://raw.githubusercontent.com/felix-fly/openwrt-ohmyzsh/master/install.sh)"
+git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 
 which zsh && sed -i -- 's:/bin/ash:'`which zsh`':g' /etc/passwd
 
