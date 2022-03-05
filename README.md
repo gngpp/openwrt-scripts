@@ -21,7 +21,7 @@ wget https://raw.githubusercontent.com/zf1976/packages/main/zsh.sh && sh zsh.sh 
 ```
 - 安装zsh插件
 ```shell
-wget https://raw.githubusercontent.com/zf1976/packages/main/zsh-plugins.zsh && sh zsh-plugins.sh && rm zsh-plugins.sh
+wget https://raw.githubusercontent.com/zf1976/packages/main/zsh-plugins.sh && sh zsh-plugins.sh && rm zsh-plugins.sh
 ```
 
 > 提示类似符号”)“等报错，请删除`plugins(git)`行 
