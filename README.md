@@ -1,6 +1,11 @@
 # packages
 Openwrt packages
 
+### 安装基本工具包：vim cfdisk git git-http usbutils pciutils lsof coreutils-nohup
+```shell
+wget https://raw.githubusercontent.com/zf1976/packages/main/base.sh && sh base.sh && rm base.sh
+```
+
 ### 安装zsh、oh-my-zsh、插件
 ```shell
 wget https://raw.githubusercontent.com/zf1976/optools/main/zsh.sh && sh zsh.sh && rm zsh.sh
