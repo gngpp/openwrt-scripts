@@ -7,6 +7,13 @@ Openwrt packages
 wget https://raw.githubusercontent.com/zf1976/packages/main/base.sh && sh base.sh && rm base.sh
 ```
 
+### 安装开发工具包
+> 含：`golang`、 `erlang`、`rust`
+
+```shell
+wget https://raw.githubusercontent.com/zf1976/packages/main/dev.sh && sh dev.sh && rm dev.sh
+```
+
 ### 安装zsh、oh-my-zsh、插件
 ```shell
 wget https://raw.githubusercontent.com/zf1976/optools/main/zsh.sh && sh zsh.sh && rm zsh.sh
