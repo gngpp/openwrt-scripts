@@ -33,7 +33,32 @@ opkg install wget --force-reinstall
 wget https://raw.githubusercontent.com/zf1976/optools/main/neofetch.sh && sh neofetch.sh -i && rm neofetch.sh
 ```
 
+### 安装luci-app-alist
+```shell
+wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/alist.sh && sh alist.sh && rm alist.sh
+```
+
 ### 安装luci-app-statistics
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/statistics.sh && sh statistics.sh && rm statistics.sh
+```
+
+### 安装luci-app-filebrowser
+```shell
+wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/filebrowser.sh && sh filebrowser.sh && rm filebrowser.sh
+```
+
+### 安装luci-app-poweroff
+```shell
+wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/poweroff.sh && sh poweroff.sh && rm poweroff.sh
+```
+
+### 安装luci-app-aliyundrive-fuse
+```shell
+wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/aliyundrive-fuse.sh && sh aliyundrive-fuse.sh && rm aliyundrive-fuse.sh
+```
+
+### 安装luci-app-aliyundrive-webdav
+```shell
+wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/aliyundrive-webdav.sh && sh aliyundrive-webdav.sh && rm aliyundrive-webdav.sh
 ```
