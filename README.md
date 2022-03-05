@@ -15,9 +15,15 @@ wget https://raw.githubusercontent.com/zf1976/packages/main/dev.sh && sh dev.sh 
 ```
 
 ### 安装zsh、oh-my-zsh、插件
+- 安装zsh
 ```shell
-wget https://raw.githubusercontent.com/zf1976/optools/main/zsh.sh && sh zsh.sh && rm zsh.sh
+wget https://raw.githubusercontent.com/zf1976/packages/main/zsh.sh && sh zsh.sh && rm zsh.sh
 ```
+- 安装zsh插件
+```shell
+wget https://raw.githubusercontent.com/zf1976/packages/main/zsh-plugins.sh && sh zsh-plugins.sh && rm zsh-plugins.sh
+```
+
 > 提示类似符号”)“等报错，请删除`plugins(git)`行 
 
   
