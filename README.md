@@ -18,6 +18,7 @@ wget https://raw.githubusercontent.com/zf1976/packages/main/dev.sh && sh dev.sh 
 ```shell
 wget https://raw.githubusercontent.com/zf1976/optools/main/zsh.sh && sh zsh.sh && rm zsh.sh
 ```
+> 提示类似符号”)“等报错，请删除`plugins(git)`行 
 
   
 ### 安装neofetch  
