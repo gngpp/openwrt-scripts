@@ -2,7 +2,6 @@
 Openwrt packages
 
 ### 安装zsh、oh-my-zsh、插件
- - 安装：
 ```shell
 wget https://raw.githubusercontent.com/zf1976/optools/main/zsh.sh && sh zsh.sh && rm zsh.sh
 ```
@@ -23,5 +22,5 @@ wget https://raw.githubusercontent.com/zf1976/optools/main/neofetch.sh && sh neo
 
 ### 安装luci-app-statistics
 ```shell
-wget https://raw.githubusercontent.com/zf1976/optools/main/luci-app/statistics.sh && sh statistics.sh && rm statistics.sh
+wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/statistics.sh && sh statistics.sh && rm statistics.sh
 ```
