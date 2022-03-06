@@ -1,5 +1,5 @@
 #!/bin/zsh
-opkg update && opkg install zsh wget unzip ca-certificates git git-http
+opkg update && opkg install zsh
 
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
