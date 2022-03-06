@@ -2,7 +2,7 @@
 Openwrt packages
 
 ### 安装基本工具包
-> 含：`vim`、`cfdisk`、`git`、`git-http`、`usbutils`、`pciutils`、`lsof`、`coreutils-nohup`
+> 含：`vim`、`cfdisk`、`rsync`、`git`、`git-http`、`usbutils`、`pciutils`、`lsof`、`coreutils-nohup`
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/base.sh && sh base.sh && rm base.sh
 ```
