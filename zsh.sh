@@ -1,5 +1,5 @@
 #!/bin/zsh
-opkg update && opkg install zsh
+opkg update && opkg install zsh git git-http
 
 sh -c "$(curl -fsSL https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh)"
 
