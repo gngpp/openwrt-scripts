@@ -74,3 +74,9 @@ wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/aliyundrive
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/alidns.sh && sh alidns.sh && rm alidns.sh
 ```
+
+### 安装luci-app-filetransfer
+
+```shell
+wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/filetransfer.sh && sh filetransfer.sh && rm filetransfer.sh
+```
