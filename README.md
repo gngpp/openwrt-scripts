@@ -1,5 +1,5 @@
-# packages
-Openwrt packages
+# Openwrt packages
+所有插件都为网上收集的开源插件
 
 ### 安装基本工具包
 > 含：`vim`、`cfdisk`、`rsync`、`git`、`git-http`、`usbutils`、`pciutils`、`lsof`、`coreutils-nohup`
