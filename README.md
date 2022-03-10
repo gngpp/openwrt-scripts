@@ -40,6 +40,12 @@ opkg install wget --force-reinstall
 wget https://raw.githubusercontent.com/zf1976/optools/main/neofetch.sh && sh neofetch.sh -i && rm neofetch.sh
 ```
 
+### 安装常用luci-app
+> 含：`ttyd`、 `uhttpd`
+```shell
+wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/base.sh && sh base.sh && rm base.sh
+```
+
 ### 安装luci-app-alist
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/alist.sh && sh alist.sh && rm alist.sh
