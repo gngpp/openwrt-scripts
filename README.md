@@ -80,3 +80,9 @@ wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/alidns.sh &
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/filetransfer.sh && sh filetransfer.sh && rm filetransfer.sh
 ```
+
+### 安装luci-app-ftpserver
+
+```shell
+wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/ftpserver.sh && sh ftpserver.sh && rm ftpserver.sh
+```
