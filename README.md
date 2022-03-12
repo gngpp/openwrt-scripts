@@ -103,6 +103,9 @@ wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/alidns.sh &
 > 如果你路由空间不算大，建议把包安装在外置磁盘空间
 ```shell
 echo "dest usb /mnt/opkg" >> /etc/opkg.conf
+# 重启shell会重置，把下面这条放在`/etc/profile` 就可以保存了
+# 注意`$PATH`是原来的变量值
+export "PATH=$PATH:/mnt/opkg/usr/bin:/mnt/opkg/usr/sbin"
 
 # 安装package时指定安装目录
 opkg install git -d usb
