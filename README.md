@@ -92,3 +92,14 @@ wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/filetransfe
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/ftpserver.sh && sh ftpserver.sh && rm ftpserver.sh
 ```
+
+## 小提示
+> 如果你路由空间不算大，建议把包安装在外置磁盘空间
+```shell
+echo "dest usb /mnt/opkg" >> /etc/opkg.conf
+
+# 安装package时指定安装目录
+opkg install git -d usb
+```
+### 安装luci-app-alidnsp
+### 安装luci-app-alidns
