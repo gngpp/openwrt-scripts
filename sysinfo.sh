@@ -114,6 +114,6 @@ printf "Address:  \x1B[92m%s\x1B[0m" "$ip_address"
 echo "" # fixed newline
 
 display "Storage" "$root_usage" "90" "1" "%" " of $root_total"
-printf "CPU: \x1B[92m%s\x1B[0m\t" "$(sh /sbin/cpuinfo)"
+printf "Frequency: \x1B[92m%s\x1B[0m\t" "$(echo $(sh /sbin/cpuinfo) | cut -d '(' -f3|cut -d ')' -f1)"
 echo ""
 echo ""
