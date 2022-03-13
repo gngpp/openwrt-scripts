@@ -74,15 +74,15 @@ time=$(awk -F" " '{print $3" "$4}' <<<"${UptimeString}")
 load="$(awk -F"average: " '{print $2}'<<<"${UptimeString}")"
 case ${time} in
 	1:*) # 1-2 hours
-		time=$(awk -F" " '{print $3" 小时"}' <<<"${UptimeString}")
+		time=$(awk -F" " '{print $3" Hours"}' <<<"${UptimeString}")
 		;;
 	*:*) # 2-24 hours
-		time=$(awk -F" " '{print $3" 小时"}' <<<"${UptimeString}")
+		time=$(awk -F" " '{print $3" Hours"}' <<<"${UptimeString}")
 		;;
 	*day) # days
-		days=$(awk -F" " '{print $3"天"}' <<<"${UptimeString}")
+		days=$(awk -F" " '{print $3"Day"}' <<<"${UptimeString}")
 		time=$(awk -F" " '{print $5}' <<<"${UptimeString}")
-		time="$days "$(awk -F":" '{print $1"小时 "$2"分钟"}' <<<"${time}")
+		time="$days "$(awk -F":" '{print $1"hour "$2"minute"}' <<<"${time}")
 		;;
 esac
 
@@ -103,17 +103,17 @@ done
 ip_address="$(get_ip_addresses)"
 
 # display info
-display "System Load" "${load%% *}" "${critical_load}" "0" "" "${load#* }"
-printf "Operation Hours:  \x1B[92m%s\x1B[0m\t\t" "$time"
+display "Load" "${load%% *}" "${critical_load}" "0" "" "${load#* }"
+printf "Uptime:  \x1B[92m%s\x1B[0m\t\t" "$time"
 echo "" # fixed newline
 
 
-display "Memory Used" "$memory_usage" "70" "0" " %" " of ${memory_total}MB"
-display "Swap Memory" "$swap_usage" "10" "0" " %" " of $swap_total""Mb"
-printf "IP Address:  \x1B[92m%s\x1B[0m" "$ip_address"
+display "Memory" "$memory_usage" "70" "0" " %" " of ${memory_total}MB"
+display "Swap" "$swap_usage" "10" "0" " %" " of $swap_total""Mb"
+printf "Address:  \x1B[92m%s\x1B[0m" "$ip_address"
 echo "" # fixed newline
 
-display "System Storage" "$root_usage" "90" "1" "%" " of $root_total"
-printf "CPU Information: \x1B[92m%s\x1B[0m\t" "$(echo `/sbin/cpuinfo | cut -d '(' -f -1`)"
+display "Storage" "$root_usage" "90" "1" "%" " of $root_total"
+printf "CPU: \x1B[92m%s\x1B[0m\t" "$(sh /sbin/cpuinfo)"
 echo ""
 echo ""
