@@ -100,7 +100,7 @@ wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/alidns.sh &
 ```
 
 ### 使用nginx替换uhttpd
-> 默认的uhttpd响应比较慢，建议替换为nginx。
+> 默认的uhttpd响应比较慢（肛精不要来bb说性能带不动nginx），建议替换为nginx。
 > 先停止uhttp修改端口或者卸载uhttp，否则会端口冲突
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/nginx.sh && sh nginx.sh && rm nginx.sh
