@@ -100,6 +100,7 @@ wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/alidns.sh &
 ```
 
 ### 使用nginx替换uhttpd
+> 默认的uhttpd响应比较慢，建议替换为nginx。
 > 先停止uhttp或者卸载uhttp
 ```shell
 opkg update && opkg install luci-nginx
