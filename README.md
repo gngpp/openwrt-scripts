@@ -99,6 +99,14 @@ wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/ftpserver.s
 wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/alidns.sh && sh alidns.sh && rm alidns.sh
 ```
 
+### 使用nginx替换uhttpd
+> 先停止uhttp或者卸载uhttp
+```shell
+opkg update && opkg install luci-nginx
+# 也可以装带有SSL的Nginx
+opkg install nginx-ssl
+```
+
 ## 小提示
 > 如果你路由空间不算大，建议把包安装在外置磁盘空间
 ```shell
