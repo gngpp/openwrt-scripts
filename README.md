@@ -100,11 +100,16 @@ wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/alidns.sh &
 ```
 
 ### 使用nginx替换uhttpd
-> 默认的uhttpd响应比较慢（肛精不要来bb说性能带不动nginx），建议替换为nginx。
+> 默认的uhttpd响应比较慢，建议替换为nginx。
 > 先停止uhttp修改端口或者卸载uhttp，否则会端口冲突
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/nginx.sh && sh nginx.sh && rm nginx.sh
 ```
+> 若需要uhttpd跟nginx同时使用，nginx需要修改默认80 443 端口防止跟uhttpd冲突
+> 这时只要安装nginx就可以了，不需要luci-nginx模块
+```shell
+opkg update && opkg install nginx
+``` 
 
 ## 小提示
 > 如果你路由空间不算大，建议把包安装在外置磁盘空间
