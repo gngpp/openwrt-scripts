@@ -112,6 +112,12 @@ wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/adguardhome
 wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/adbyby.sh && sh adbyby.sh && rm adbyby.sh
 ```
 
+### 安装luci-app-ttnode
+
+```shell
+wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/ttnode.sh && sh ttnode.sh && rm ttnode.sh
+```
+
 ### 使用nginx替换uhttpd
 > 默认的uhttpd响应比较慢，建议替换为nginx。
 > 先停止uhttp修改端口或者卸载uhttp，否则会端口冲突
