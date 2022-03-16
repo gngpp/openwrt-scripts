@@ -105,6 +105,12 @@ wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/alidns.sh &
 wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/nps-npc.sh && sh nps-npc.sh && rm nps-npc.sh
 ```
 
+### 安装luci-app-adguardhome
+
+```shell
+wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/adguardhome.sh && sh adguardhome.sh && rm adguardhome.sh
+```
+
 ### 使用nginx替换uhttpd
 > 默认的uhttpd响应比较慢，建议替换为nginx。
 > 先停止uhttp修改端口或者卸载uhttp，否则会端口冲突
