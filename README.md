@@ -108,6 +108,7 @@ wget https://raw.githubusercontent.com/zf1976/packages/main/nginx.sh && sh nginx
 > 若需要uhttpd跟nginx同时使用，nginx需要修改默认80 443 端口防止跟uhttpd冲突
 > 这时只要安装nginx就可以了，不需要luci-nginx模块
 ```shell
+/etc/init.d/uhttpd stop
 opkg update && opkg install nginx
 ``` 
 
