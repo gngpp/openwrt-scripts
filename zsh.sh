@@ -2,5 +2,5 @@
 opkg update && opkg install zsh git git-http
 which zsh && sed -i -- 's:/bin/ash:'`which zsh`':g' /etc/passwd
 
-curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh && sh install.sh && rm install.sh
+wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh && sh install.sh && rm install.sh
 source ~/.zshrc
