@@ -76,11 +76,6 @@ wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/aliyundrive
 wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/aliyundrive-webdav.sh && sh aliyundrive-webdav.sh && rm aliyundrive-webdav.sh
 ```
 
-### 安装luci-app-alidns
-```shell
-wget https://raw.githubusercontent.com/zf1976/packages/main/luci-app/alidns.sh && sh alidns.sh && rm alidns.sh
-```
-
 ### 安装luci-app-filetransfer
 
 ```shell
