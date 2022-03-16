@@ -9,3 +9,7 @@ opkg install luci-app-uhttpd luci-i18n-uhttpd-zh-cn luci-app-minidlna luci-i18n-
 wget https://op.supes.top/packages/aarch64_generic/luci-app-accesscontrol_git-22.049.56376-f644175_all.ipk
 opkg install luci-app-accesscontrol_git-22.049.56376-f644175_all.ipk
 rm ./luci-app-accesscontrol_git-22.049.56376-f644175_all.ipk
+
+wget https://op.supes.top/packages/aarch64_generic/luci-app-rclone_git-22.049.56376-f644175_all.ipk
+opkg install uci-app-rclone_git-22.049.56376-f644175_all.ipk
+rm luci-app-rclone_git-22.049.56376-f644175_all.ipk
