@@ -33,13 +33,6 @@ wget https://raw.githubusercontent.com/zf1976/packages/main/zsh-plugins.sh && sh
 
 > 提示类似符号”)“等报错，请删除`plugins(git)`行 
 
-  
-### 安装neofetch  
-
-```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/neofetch.sh && sh neofetch.sh -i && rm neofetch.sh
-```
-
 ## 工具脚本
 - acme
 ```shell
