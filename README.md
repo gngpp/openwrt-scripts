@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/zf1976/packages/blob/main/README-360v6.md">R4S</a> | <a href="https://github.com/zf1976/packages/blob/main/README-360v6.md">360v6</a>
+  <a href="https://github.com/zf1976/packages/blob/main/README-360v6.md">360v6</a> | <a href="https://github.com/zf1976/packages/blob/main/README-R4S.md">R4S</a>
 </p>
 
 # Openwrt packages
