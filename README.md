@@ -28,6 +28,9 @@ wget https://raw.githubusercontent.com/zf1976/packages/main/zsh.sh && sh zsh.sh 
 ```
 - 安装oh-my-zsh、zsh插件
 ```shell
+# oh-my-zsh
+wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh && sh install.sh && rm install.sh
+# plugins
 wget https://raw.githubusercontent.com/zf1976/packages/main/zsh-plugins.sh && sh zsh-plugins.sh && rm zsh-plugins.sh
 ```
 
