@@ -10,6 +10,11 @@
 wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/neofetch.sh && sh neofetch.sh -i && rm neofetch.sh
 ```
 
+### 安装git、git-http
+```shell
+wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/git.sh && sh git.sh -i && rm git.sh
+```
+
 ### 安装常用luci-app
 ```shell
 wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/luci-app/base.sh && sh base.sh && rm base.sh
