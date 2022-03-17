@@ -1,5 +1,5 @@
 #!/bin/zsh
-opkg update && opkg install zsh git git-http
+opkg update && opkg install zsh
 
 wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh && sh install.sh && rm install.sh
 source ~/.zshrc
