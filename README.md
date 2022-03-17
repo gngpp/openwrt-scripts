@@ -1,9 +1,7 @@
 <p align="center">
-	<a href="https://github.com/zf1976/vlog/releases/tag/v1.0.4"><img src="https://img.shields.io/github/v/release/zf1976/vlog?logo=github" alt="GitHub release" /></a>
-</p>
-<p align="center">
   <strong>R4S</strong> | <a href="https://raw.githubusercontent.com/zf1976/packages/main/README-360v6.md">360v6</a>
 </p>
+
 # Openwrt packages
 所有插件都为网上收集的开源仓库插件，
 - R4S适用于固件项目：https://github.com/QiuSimons/YAOF
