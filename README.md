@@ -124,6 +124,12 @@ wget https://raw.githubusercontent.com/zf1976/packages/main/nginx.sh && sh nginx
 opkg update && opkg install nginx
 ``` 
 
+## 工具脚本
+- acme
+```shell
+curl https://get.acme.sh | sh
+```
+
 ## 小提示
 > 如果你路由空间不算大，建议把包安装在外置磁盘空间
 ```shell
