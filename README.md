@@ -3,9 +3,7 @@
 </p>
 
 # Openwrt packages
-所有插件都为网上收集的开源仓库插件，
-- R4S适用于固件项目：https://github.com/QiuSimons/YAOF
-- 360V6适用于lean固件
+所有插件都为网上收集的开源仓库插件，R4S适用于固件项目：https://github.com/QiuSimons/YAOF
 
 
 ### 安装基本工具包
