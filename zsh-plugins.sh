@@ -2,7 +2,7 @@
 # oh-my-zsh
 wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh && sh install.sh && rm install.sh
 sed -i '73d' ~/.zshrc
-source ~/.zshrc
+
 # zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 # zsh-autosuggestions
