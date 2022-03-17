@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>360v6</strong> | <a href="https://github.com/zf1976/packages/blob/main/README-R4S.md">R4S</a>
+  <strong>README</strong> | <a href="https://github.com/zf1976/packages/blob/main/README-R4S.md">R4S</a> | <a href="https://github.com/zf1976/packages/blob/main/README-360v6.md">360v6</a>
 </p>
 
 ### 安装neofetch
