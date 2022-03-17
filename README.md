@@ -26,7 +26,7 @@ wget https://raw.githubusercontent.com/zf1976/packages/main/dev.sh && sh dev.sh 
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/zsh.sh && sh zsh.sh && rm zsh.sh
 ```
-- 安装zsh插件
+- 安装oh-my-zsh、zsh插件
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/zsh-plugins.sh && sh zsh-plugins.sh && rm zsh-plugins.sh
 ```
