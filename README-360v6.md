@@ -5,4 +5,22 @@
 # Openwrt packages
 所有插件都为网上收集的开源仓库插件，360V6适用于lean固件-22.3.8版本
 
+### 安装neofetch
+```shell
+wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/neofetch.sh && sh neofetch.sh -i && rm neofetch.sh
+```
+
+### 安装常用luci-app
+```shell
+wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/luci-app/base.sh && sh base.sh && rm base.sh
+```
+
 ### 安装luci-app-diskman
+```shell
+wget https://raw.githubusercontent.com/zf1976/optools/main/neofetch.sh && sh neofetch.sh -i && rm neofetch.sh
+```
+
+### 安装luci-app-frpc、luci-app-frps
+```shell
+wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/luci-app/frpc-frps.sh && sh frpc-frps.sh && rm frpc-frps.sh
+```
