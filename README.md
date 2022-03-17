@@ -1,5 +1,8 @@
 # Openwrt packages
-所有插件都为网上收集的开源仓库插件，适用于固件项目：https://github.com/QiuSimons/YAOF
+所有插件都为网上收集的开源仓库插件
+- R4S适用于固件项目：https://github.com/QiuSimons/YAOF
+- 360V6固件请移步：
+
 
 ### 安装基本工具包
 > 含：`vim`、`cfdisk`、`rsync`、`git`、`git-http`、`usbutils`、`pciutils`、`lsof`、`coreutils-nohup`
