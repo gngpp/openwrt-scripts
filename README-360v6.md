@@ -9,7 +9,7 @@
 
 ### neofetch
 ```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/neofetch.sh && sh neofetch.sh -i && rm neofetch.sh
+wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/neofetch.sh && sh neofetch.sh -i && rm neofetch.sh
 ```
 
 ### git、git-http
