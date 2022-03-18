@@ -11,7 +11,6 @@ chmod 777 ./filebrowser
 ./filebrowser config init
 ./filebrowser users add admin admin
 ./filebrowser config set --root /
-./filebrowser config set --port 10000
 sed -i '$i\cd '`pwd`' && nohup ./filebrowser >/dev/null 2>&1 &'  /etc/rc.local
 cat /etc/rc.local
 nohup ./filebrowser >/dev/null 2>&1 &
