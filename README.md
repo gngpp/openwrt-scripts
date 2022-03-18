@@ -42,7 +42,7 @@ sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/zsh-pl
 curl https://get.acme.sh | sh
 ```
 
--DDNSTO
+- DDNSTO
 ```shel
 sh -c "$(curl -sSL http://fw.koolcenter.com/binary/ddnsto/openwrt/install_ddnsto.sh)"
 ```
