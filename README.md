@@ -53,3 +53,14 @@ export PATH=$PATH:/mnt/opkg/usr/bin:/mnt/opkg/usr/sbin
 # 安装package时指定安装目录
 opkg install git -d usb
 ```
+> 直接扩容根分区`/`，根目录准备，确保使用以下命令来复制根文件系统
+```shell
+mkdir -p /tmp/introot
+mkdir -p /tmp/extroot
+mount --bind / /tmp/introot
+mount /dev/sda1 /tmp/extroot
+tar -C /tmp/introot -cvf - . | tar -C /tmp/extroot -xf -
+umount /tmp/introot
+umount /tmp/extroot
+```
+其中`/dev/sda1` 是挂载分区，注意格式化为ext4，执行完上面操作好，去挂载点保存好分区挂载配置后重启
