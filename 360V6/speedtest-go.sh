@@ -8,5 +8,6 @@ wget https://github.com/librespeed/speedtest-go/releases/download/v1.1.4/speedte
 tar -zxvf ./speedtest-go_1.1.4_linux_arm64.tar.gz
 rm ./speedtest-go_1.1.4_linux_arm64.tar.gz
 chmod 777 ./speedtest-backend
-sed -i '$i\cd $P/speedtest-go && nohup ./speedtest-backend >/dev/null 2>&1 &'  /etc/rc.local
+sed -i '$i\cd '`pwd`'/speedtest-go && nohup ./speedtest-backend >/dev/null 2>&1 &'  /etc/rc.local
+cat /etc/rc.local
 nohup ./speedtest-backend >/dev/null 2>&1 &
