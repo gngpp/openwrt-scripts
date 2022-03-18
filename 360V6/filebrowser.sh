@@ -10,7 +10,7 @@ rm ./linux-arm64-filebrowser.tar.gz
 chmod 777 ./filebrowser
 ./filebrowser config init
 ./filebrowser users add admin admin
-./filebrowser config set --root /
+./filebrowser config set --root /  --address 192.168.1.1
 sed -i '$i\cd '`pwd`' && nohup ./filebrowser >/dev/null 2>&1 &'  /etc/rc.local
 cat /etc/rc.local
 nohup ./filebrowser >/dev/null 2>&1 &
