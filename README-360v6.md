@@ -34,3 +34,8 @@ wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/luci-a
 ```shell
 wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/luci-app/filebrowser.sh && sh filebrowser.sh && rm filebrowser.sh
 ```
+
+### luci-app-alist
+```shell
+wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/luci-app/alist.sh && sh alist.sh && rm alist.sh
+```
