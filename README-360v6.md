@@ -20,6 +20,11 @@ wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/git.sh
 wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/speedtest-go.sh && sh speedtest-go.sh -i && rm speedtest-go.sh
 ```
 
+### filebrowser
+```shell
+wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/filebrowser.sh && sh filebrowser.sh -i && rm filebrowser.sh
+```
+
 ### 常用luci-app
 ```shell
 wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/luci-app/base.sh && sh base.sh && rm base.sh
