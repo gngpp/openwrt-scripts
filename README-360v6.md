@@ -22,7 +22,7 @@ wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/luci-a
 
 ### luci-app-diskman
 ```shell
-wget https://raw.githubusercontent.com/zf1976/optools/main/neofetch.sh && sh neofetch.sh -i && rm neofetch.sh
+wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/luci-app/diskman.sh && sh diskman.sh -i && rm diskman.sh
 ```
 
 ### luci-app-frpc、luci-app-frps
