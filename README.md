@@ -42,6 +42,11 @@ wget https://raw.githubusercontent.com/zf1976/packages/main/zsh-plugins.sh && sh
 curl https://get.acme.sh | sh
 ```
 
+-DDNSTO
+```shel
+sh -c "$(curl -sSL http://fw.koolcenter.com/binary/ddnsto/openwrt/install_ddnsto.sh)"
+```
+
 ## 小提示
 > 如果你路由空间不算大，建议把包安装在外置磁盘空间
 ```shell
