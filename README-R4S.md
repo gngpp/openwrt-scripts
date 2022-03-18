@@ -4,79 +4,79 @@
 
 # R4S
 
-### 安装常用luci-app
-> 含：`ttyd`、 `uhttpd`
+### 常用luci-app
+> 含：`ttyd`、 `uhttpd`等
 ```shell
 wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/R4S/luci-app/base.sh && sh base.sh && rm base.sh
 ```
 
-### 安装luci-app-alist
+### luci-app-alist
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/alist.sh && sh alist.sh && rm alist.sh
 ```
 
-### 安装luci-app-statistics
+### luci-app-statistics
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/statistics.sh && sh statistics.sh && rm statistics.sh
 ```
 
-### 安装luci-app-filebrowser
+### luci-app-filebrowser
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/filebrowser.sh && sh filebrowser.sh && rm filebrowser.sh
 ```
 
-### 安装luci-app-poweroff
+### luci-app-poweroff
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/poweroff.sh && sh poweroff.sh && rm poweroff.sh
 ```
 
-### 安装luci-app-aliyundrive-fuse
+### luci-app-aliyundrive-fuse
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/aliyundrive-fuse.sh && sh aliyundrive-fuse.sh && rm aliyundrive-fuse.sh
 ```
 
-### 安装luci-app-aliyundrive-webdav
+### luci-app-aliyundrive-webdav
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/aliyundrive-webdav.sh && sh aliyundrive-webdav.sh && rm aliyundrive-webdav.sh
 ```
 
-### 安装luci-app-filetransfer
+### luci-app-filetransfer
 
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/filetransfer.sh && sh filetransfer.sh && rm filetransfer.sh
 ```
 
-### 安装luci-app-ftpserver
+### luci-app-ftpserver
 
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/ftpserver.sh && sh ftpserver.sh && rm ftpserver.sh
 ```
 
-### 安装luci-app-alidns
+### luci-app-alidns
 
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/alidns.sh && sh alidns.sh && rm alidns.sh
 ```
 
-### 安装luci-app-nps、luci-app-npc
+### luci-app-nps、luci-app-npc
 
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/nps-npc.sh && sh nps-npc.sh && rm nps-npc.sh
 ```
 
-### 安装luci-app-adguardhome
+### luci-app-adguardhome
 
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/adguardhome.sh && sh adguardhome.sh && rm adguardhome.sh
 ```
 
-### 安装luci-app-adbyby
+### luci-app-adbyby
 
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/adbyby.sh && sh adbyby.sh && rm adbyby.sh
 ```
 
-### 安装luci-app-ttnode
+### luci-app-ttnode
 
 ```shell
 wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/ttnode.sh && sh ttnode.sh && rm ttnode.sh
