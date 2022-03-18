@@ -6,85 +6,79 @@
 
 ### neofetch
 ```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/R4S/neofetch.sh && sh neofetch.sh -i && rm neofetch.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/R4S/neofetch.sh)"
 ```
 
 ### 常用luci-app
 > 含：`ttyd`、 `uhttpd`等
 ```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/R4S/luci-app/base.sh && sh base.sh && rm base.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/R4S/luci-app/base.sh)"
 ```
 
 ### luci-app-alist
 ```shell
-wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/alist.sh && sh alist.sh && rm alist.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/alist.sh)"
 ```
 
 ### luci-app-statistics
 ```shell
-wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/statistics.sh && sh statistics.sh && rm statistics.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/statistics.sh)"
 ```
 
 ### luci-app-filebrowser
 ```shell
-wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/filebrowser.sh && sh filebrowser.sh && rm filebrowser.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/filebrowser.sh)"
 ```
 
 ### luci-app-poweroff
 ```shell
-wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/poweroff.sh && sh poweroff.sh && rm poweroff.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/poweroff.sh)"
 ```
 
 ### luci-app-aliyundrive-fuse
 ```shell
-wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/aliyundrive-fuse.sh && sh aliyundrive-fuse.sh && rm aliyundrive-fuse.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/aliyundrive-fuse.sh)"
 ```
 
 ### luci-app-aliyundrive-webdav
 ```shell
-wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/aliyundrive-webdav.sh && sh aliyundrive-webdav.sh && rm aliyundrive-webdav.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/aliyundrive-webdav.sh)"
 ```
 
 ### luci-app-filetransfer
-
 ```shell
-wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/filetransfer.sh && sh filetransfer.sh && rm filetransfer.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/filetransfer.sh)"
 ```
 
 ### luci-app-ftpserver
-
 ```shell
-wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/ftpserver.sh && sh ftpserver.sh && rm ftpserver.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/ftpserver.sh)"
 ```
 
 ### luci-app-alidns
 
 ```shell
-wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/alidns.sh && sh alidns.sh && rm alidns.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/alidns.sh)"
 ```
 
 ### luci-app-nps、luci-app-npc
-
 ```shell
-wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/nps-npc.sh && sh nps-npc.sh && rm nps-npc.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/nps-npc.sh)"
 ```
 
 ### luci-app-adguardhome
-
 ```shell
-wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/adguardhome.sh && sh adguardhome.sh && rm adguardhome.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/adguardhome.sh)"
 ```
 
 ### luci-app-adbyby
-
 ```shell
-wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/adbyby.sh && sh adbyby.sh && rm adbyby.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/adbyby.sh)"
 ```
 
 ### luci-app-ttnode
-
 ```shell
-wget https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/ttnode.sh && sh ttnode.sh && rm ttnode.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/ttnode.sh)"
 ```
 
 ### 使用nginx替换uhttpd

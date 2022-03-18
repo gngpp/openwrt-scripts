@@ -9,45 +9,46 @@
 
 ### neofetch
 ```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/neofetch.sh && sh neofetch.sh -i && rm neofetch.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/neofetch.sh)"
 ```
 
 ### git、git-http
 ```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/git.sh && sh git.sh -i && rm git.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/git.sh)"
+wget  && sh git.sh -i && rm git.sh
 ```
 
 ### speedtest-go
 ```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/speedtest-go.sh && sh speedtest-go.sh -i && rm speedtest-go.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/speedtest-go.sh)"
 ```
 
 ### filebrowser
 ```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/filebrowser.sh && sh filebrowser.sh -i && rm filebrowser.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/filebrowser.sh)"
 ```
 
 ### 常用luci-app
 ```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/luci-app/base.sh && sh base.sh && rm base.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/luci-app/base.sh)"
 ```
 
 ### luci-app-diskman
 ```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/luci-app/diskman.sh && sh diskman.sh -i && rm diskman.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/luci-app/diskman.sh)"
 ```
 
 ### luci-app-frpc、luci-app-frps
 ```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/luci-app/frpc-frps.sh && sh frpc-frps.sh && rm frpc-frps.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/luci-app/frpc-frps.sh)"
 ```
 
 ### luci-app-filebrowser
 ```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/luci-app/filebrowser.sh && sh filebrowser.sh && rm filebrowser.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/luci-app/filebrowser.sh)"
 ```
 
 ### luci-app-alist
 ```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/luci-app/alist.sh && sh alist.sh && rm alist.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/luci-app/alist.sh)"
 ```

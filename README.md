@@ -11,27 +11,27 @@
 ### 安装基本工具包
 > 含：`vim`、`cfdisk`、`rsync`、`git`、`git-http`、`usbutils`、`pciutils`、`lsof`、`coreutils-nohup`
 ```shell
-wget https://raw.githubusercontent.com/zf1976/packages/main/base.sh && sh base.sh && rm base.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/base.sh)"
 ```
 
 ### 安装开发工具包
 > 含：`golang`、 `erlang`、`rust`
 
 ```shell
-wget https://raw.githubusercontent.com/zf1976/packages/main/dev.sh && sh dev.sh && rm dev.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/dev.sh)"
 ```
 
 ### 安装zsh、oh-my-zsh、插件
 - 安装zsh
 ```shell
-wget https://raw.githubusercontent.com/zf1976/packages/main/zsh.sh && sh zsh.sh && rm zsh.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/zsh.sh)"
 ```
 - 安装oh-my-zsh、zsh插件
 ```shell
 # oh-my-zsh
-wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh && sh install.sh && rm install.sh
+sh -c "$(curl -sSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # plugins
-wget https://raw.githubusercontent.com/zf1976/packages/main/zsh-plugins.sh && sh zsh-plugins.sh && rm zsh-plugins.sh
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/zsh-plugins.sh)"
 ```
 
 > 提示类似符号”)“等报错，请删除`plugins(git)`行 
