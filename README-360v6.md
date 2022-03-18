@@ -5,6 +5,8 @@
 # 360v6
 安装脚本使用的是最新版源的插件，自带源安装有坑
 
+<img src="./360v6/img/360v6.png"/>
+
 ### neofetch
 ```shell
 wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/neofetch.sh && sh neofetch.sh -i && rm neofetch.sh
@@ -12,40 +14,40 @@ wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/neofetch.sh 
 
 ### git、git-http
 ```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/git.sh && sh git.sh -i && rm git.sh
+wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/git.sh && sh git.sh -i && rm git.sh
 ```
 
 ### speedtest-go
 ```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/speedtest-go.sh && sh speedtest-go.sh -i && rm speedtest-go.sh
+wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/speedtest-go.sh && sh speedtest-go.sh -i && rm speedtest-go.sh
 ```
 
 ### filebrowser
 ```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/filebrowser.sh && sh filebrowser.sh -i && rm filebrowser.sh
+wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/filebrowser.sh && sh filebrowser.sh -i && rm filebrowser.sh
 ```
 
 ### 常用luci-app
 ```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/luci-app/base.sh && sh base.sh && rm base.sh
+wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/luci-app/base.sh && sh base.sh && rm base.sh
 ```
 
 ### luci-app-diskman
 ```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/luci-app/diskman.sh && sh diskman.sh -i && rm diskman.sh
+wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/luci-app/diskman.sh && sh diskman.sh -i && rm diskman.sh
 ```
 
 ### luci-app-frpc、luci-app-frps
 ```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/luci-app/frpc-frps.sh && sh frpc-frps.sh && rm frpc-frps.sh
+wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/luci-app/frpc-frps.sh && sh frpc-frps.sh && rm frpc-frps.sh
 ```
 
 ### luci-app-filebrowser
 ```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/luci-app/filebrowser.sh && sh filebrowser.sh && rm filebrowser.sh
+wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/luci-app/filebrowser.sh && sh filebrowser.sh && rm filebrowser.sh
 ```
 
 ### luci-app-alist
 ```shell
-wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360V6/luci-app/alist.sh && sh alist.sh && rm alist.sh
+wget https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/luci-app/alist.sh && sh alist.sh && rm alist.sh
 ```
