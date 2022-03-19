@@ -47,7 +47,7 @@ curl https://get.acme.sh | sh
 ```
 
 - DDNSTO
-```shel
+```shell
 sh -c "$(curl -sSL http://fw.koolcenter.com/binary/ddnsto/openwrt/install_ddnsto.sh)"
 ```
 
