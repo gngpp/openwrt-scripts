@@ -66,24 +66,23 @@ storage_info
 critical_load=$(( 1 + $(grep -c processor /proc/cpuinfo) / 2 ))
 
 # get uptime, logged in users and load in one take
-UptimeString=$(uptime | tr -d ',')
-time=$(awk -F" " '{print $3" mins"}' <<<"${UptimeString}")
+UptimeString="$(uptime | tr -d ',')"
+time=$(awk -F" " '{print $3 " " $4}' <<<"${UptimeString}")
 load="$(awk -F"average: " '{print $2}'<<<"${UptimeString}")"
 case ${time} in
 	1:*) # 1-2 hours
-		time=$(awk -F" " '{print $3" Hours"}' <<<"${UptimeString}")
-		;;
+    hours_time=$(awk -F" " '{print $3}' <<<"${UptimeString}")
+	time=$(awk -F":" '{print $1" hours, " $2" mins"}' <<<"${hours_time}")
+	;;
 	*:*) # 2-24 hours
-		time=$(awk -F" " '{print $3" Hours"}' <<<"${UptimeString}")
-		;;
-	*day) # days
-   		days=$(awk -F" " '{print $3 " days, "}'  <<<"${UptimeString}")
-		hours=$(awk -F" " '{print $5 " hours,"}'<<<"${UptimeString}")
-    		mins=$(awk -F" " '{print $7 " mins"}'    <<<"${UptimeString}")
-		time="$days $hours $mins"
-		;;
+	hours_time=$(awk -F" " '{print $3}' <<<"${UptimeString}")
+	time=$(awk -F":" '{print $1" hours, " $2" mins"}' <<<"${hours_time}")
+	;;
+	*day | *days) # days
+    days=$(awk -F" " '{print $3" days,"}'  <<<"${UptimeString}")
+ 	hours_time=$(awk -F" " '{print $5}' <<<"${UptimeString}")
+	time="$days $(awk -F":" '{print $1" hours, " $2" mins"}' <<<"${hours_time}")"
 esac
-
 
 # memory and swap
 mem_info=$(LC_ALL=C free -w 2>/dev/null | grep "^Mem" || LC_ALL=C free | grep "^Mem")
