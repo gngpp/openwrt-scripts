@@ -101,13 +101,13 @@ ip_address="$(get_ip_addresses)"
 
 # display info
 display "Load" "${load%% *}" "${critical_load}" "0" "" "${load#* }"
-printf "Uptime:  \x1B[92m%s\x1B[0m\t\t" "$time"
+printf "Uptime:    \x1B[92m%s\x1B[0m\t\t" "$time"
 echo "" # fixed newline
 
 
 display "Memory" "$memory_usage" "70" "0" " %" " of ${memory_total}MB"
 display "Swap" "$swap_usage" "10" "0" " %" " of $swap_total""Mb"
-printf "Address:  \x1B[92m%s\x1B[0m" "$ip_address"
+printf "Address:   \x1B[92m%s\x1B[0m" "$ip_address"
 echo "" # fixed newline
 
 display "Storage" "$root_usage" "90" "1" "%" " of $root_total"
