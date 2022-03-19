@@ -67,7 +67,7 @@ critical_load=$(( 1 + $(grep -c processor /proc/cpuinfo) / 2 ))
 
 # get uptime, logged in users and load in one take
 UptimeString=$(uptime | tr -d ',')
-time=$(awk -F" " '{print $3" "$4}' <<<"${UptimeString}")
+time=$(awk -F" " '{print $3" mins"}' <<<"${UptimeString}")
 load="$(awk -F"average: " '{print $2}'<<<"${UptimeString}")"
 case ${time} in
 	1:*) # 1-2 hours
@@ -77,9 +77,10 @@ case ${time} in
 		time=$(awk -F" " '{print $3" Hours"}' <<<"${UptimeString}")
 		;;
 	*day) # days
-		days=$(awk -F" " '{print $3"Day"}' <<<"${UptimeString}")
-		time=$(awk -F" " '{print $5}' <<<"${UptimeString}")
-		time="$days "$(awk -F":" '{print $1"hour "$2"minute"}' <<<"${time}")
+   		days=$(awk -F" " '{print $3 " days, "}'  <<<"${UptimeString}")
+		hours=$(awk -F" " '{print $5 " hours,"}'<<<"${UptimeString}")
+    		mins=$(awk -F" " '{print $7 " mins"}'    <<<"${UptimeString}")
+		time="$days $hours $mins"
 		;;
 esac
 
