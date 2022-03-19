@@ -33,6 +33,10 @@ sh -c "$(curl -sSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.s
 # plugins
 sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/zsh-plugins.sh)"
 ```
+### 安装neofetch
+```shell
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/neofetch.sh)"
+```
 
 > 提示类似符号”)“等报错，请删除`plugins(git)`行 
 

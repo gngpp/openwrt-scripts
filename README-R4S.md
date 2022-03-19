@@ -4,11 +4,6 @@
 
 # R4S
 
-### neofetch
-```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/R4S/neofetch.sh)"
-```
-
 ### 常用luci-app
 > 含：`ttyd`、 `uhttpd`等
 ```shell
