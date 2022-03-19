@@ -10,7 +10,6 @@
 ### git、git-http
 ```shell
 sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/git.sh)"
-wget  && sh git.sh -i && rm git.sh
 ```
 
 ### speedtest-go
