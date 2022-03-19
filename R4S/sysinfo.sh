@@ -71,17 +71,20 @@ time=$(awk -F" " '{print $3 " " $4}' <<<"${UptimeString}")
 load="$(awk -F"average: " '{print $2}'<<<"${UptimeString}")"
 case ${time} in
 	1:*) # 1-2 hours
-    hours_time=$(awk -F" " '{print $3}' <<<"${UptimeString}")
-	time=$(awk -F":" '{print $1" hours, " $2" mins"}' <<<"${hours_time}")
+    hours_mins=$(awk -F" " '{print $3}' <<<"${UptimeString}")
+	time=$(awk -F":" '{print $1" hours, " $2" mins"}' <<<"${hours_mins}")
 	;;
 	*:*) # 2-24 hours
-	hours_time=$(awk -F" " '{print $3}' <<<"${UptimeString}")
-	time=$(awk -F":" '{print $1" hours, " $2" mins"}' <<<"${hours_time}")
+	hours_mins=$(awk -F" " '{print $3}' <<<"${UptimeString}")
+	time=$(awk -F":" '{print $1" hours, " $2" mins"}' <<<"${hours_mins}")
 	;;
 	*day | *days) # days
     days=$(awk -F" " '{print $3" days,"}'  <<<"${UptimeString}")
- 	hours_time=$(awk -F" " '{print $5}' <<<"${UptimeString}")
-	time="$days $(awk -F":" '{print $1" hours, " $2" mins"}' <<<"${hours_time}")"
+ 	hours_mins=$(awk -F" " '{print $5}' <<<"${UptimeString}")
+	time="$days $(awk -F":" '{print $1" hours, " $2" mins"}' <<<"${hours_mins}")"
+	;;
+	*)
+	time="$time"s""
 esac
 
 # memory and swap
