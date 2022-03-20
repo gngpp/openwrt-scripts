@@ -4,6 +4,8 @@
 
 # R4S
 
+<img src="./R4S/img/r4s.png"/>
+
 ### 常用luci-app
 > 含：`ttyd`、 `uhttpd`等
 ```shell

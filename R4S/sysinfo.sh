@@ -66,23 +66,71 @@ storage_info
 critical_load=$(( 1 + $(grep -c processor /proc/cpuinfo) / 2 ))
 
 # get uptime, logged in users and load in one take
-UptimeString="$(uptime | tr -d ',')"
+# 0. 23:14:05 up 1:00 load average: 0.00 0.04 0.10
+# 1. 22:57:03 up 43 min load average: 0.84 0.27 0.09
+# 2. 23:14:29 up 1:01 load average: 0.00 0.04 0.09
+# 3. 22:58:05 up 23:30 load average: 0.06 0.05 0.01
+# 4. 22:58:50 up 12 days 1:11 15 users load average: 7.61 6.93 6.32
+# 5. 23:39:45 up 1 day 12 min load average: 0.06 0.01 0.00
+UptimeString=$(uptime | tr -d ',')
 time=$(awk -F" " '{print $3 " " $4}' <<<"${UptimeString}")
 load="$(awk -F"average: " '{print $2}'<<<"${UptimeString}")"
 case ${time} in
 	1:*) # 1-2 hours
-    hours_mins=$(awk -F" " '{print $3}' <<<"${UptimeString}")
-	time=$(awk -F":" '{print $1" hours, " $2" mins"}' <<<"${hours_mins}")
+	hours_mins=$(awk -F" " '{print $3}' <<<"${UptimeString}")
+    raw_mins=$(awk -F":" '{print $2}' <<<"${hours_mins}")
+    mins=""
+    time="$(awk -F":" '{print $1" hours, "}' <<<"${hours_mins}")$raw_mins mins"
+    if [[ $raw_mins == 0* ]];
+    then
+        mins=$(awk -F"0" '{print $2}' <<<"${raw_mins}")
+        time="$(awk -F":" '{print $1" hours, "}' <<<"${hours_mins}")$mins mins"
+        if [[ $mins == "" ]]
+        then
+            time="$(awk -F":" '{print $1" hours, "}' <<<"${hours_mins}")0 mins"
+        fi
+    fi
 	;;
+
 	*:*) # 2-24 hours
 	hours_mins=$(awk -F" " '{print $3}' <<<"${UptimeString}")
-	time=$(awk -F":" '{print $1" hours, " $2" mins"}' <<<"${hours_mins}")
+    raw_mins=$(awk -F":" '{print $2}' <<<"${hours_mins}")
+    mins=""
+    time="$(awk -F":" '{print $1" hours, "}' <<<"${hours_mins}")$raw_mins mins"
+    if [[ $raw_mins == 0* ]];
+    then
+        mins=$(awk -F"0" '{print $2}' <<<"${raw_mins}")
+        time="$(awk -F":" '{print $1" hours, "}' <<<"${hours_mins}")$mins mins"
+        if [[ $mins == "" ]]
+        then
+            time="$(awk -F":" '{print $1" hours, "}' <<<"${hours_mins}")0 mins"
+        fi
+    fi
 	;;
+
 	*day | *days) # days
     days=$(awk -F" " '{print $3" days,"}'  <<<"${UptimeString}")
- 	hours_mins=$(awk -F" " '{print $5}' <<<"${UptimeString}")
-	time="$days $(awk -F":" '{print $1" hours, " $2" mins"}' <<<"${hours_mins}")"
+	hours_mins=$(awk -F" " '{print $5}' <<<"${UptimeString}")
+    raw_mins=$(awk -F":" '{print $2}' <<<"${hours_mins}")
+    mins=""
+    time="$days $(awk -F":" '{print $1" hours, "}' <<<"${hours_mins}")$raw_mins mins"
+    if [[ $raw_mins == 0* ]];
+    then
+        mins=$(awk -F"0" '{print $2}' <<<"${raw_mins}")
+        time="$days $(awk -F":" '{print $1" hours, "}' <<<"${hours_mins}")$mins mins"
+        if [[ $mins == "" ]]
+        then
+            time="$days $(awk -F":" '{print $1" hours, "}' <<<"${hours_mins}")0 mins"
+        fi
+    fi
+
+    ifmin=$(awk -F" " '{print $6}' <<<"${UptimeString}")
+    if [[ $ifmin == "min" ]]
+    then
+    time="$days $(awk -F" " '{print $5" mins"}' <<<"${UptimeString}")"
+    fi
 	;;
+
 	*)
 	time="$time"s""
 esac
