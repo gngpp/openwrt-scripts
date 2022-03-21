@@ -13,6 +13,6 @@ echo "source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting/
 echo "source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
 echo "neofetch" >> ~/.zshrc
 echo "bash /etc/sysinfo.sh" >> ~/.zshrc
-source ~/.zshrc
+echo "Please source ~/.zshrc"
 
 
