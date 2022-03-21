@@ -24,7 +24,10 @@ sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/dev.sh
 ### 安装zsh、oh-my-zsh、插件
 - 安装zsh
 ```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/zsh.sh)"
+# R4S
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/R4S/zsh.sh)"
+# 360v6
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/zsh.sh)"
 ```
 - 安装oh-my-zsh、zsh插件
 ```shell
