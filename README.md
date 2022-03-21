@@ -33,8 +33,12 @@ sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/mai
 ```shell
 # oh-my-zsh
 sh -c "$(curl -sSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # plugins
-sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/zsh-plugins.sh)"
+# R4S
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/R4S/zsh-plugins.sh)"
+# 360v6
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/zsh-plugins.sh)"
 ```
 > 提示类似符号”)“等报错，请删除`plugins(git)`行 
 
