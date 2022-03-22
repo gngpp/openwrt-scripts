@@ -12,24 +12,6 @@
 sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/git.sh)"
 ```
 
-### speedtest-go
-> web: `http://192.168.1.1:8989`
-```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/speedtest-go.sh)"
-```
-
-### filebrowser
-> 默认账号密码：`admin`
-> web: `http://192.168.1.1:8080`
-```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/filebrowser.sh)"
-```
-
-### 常用luci-app
-```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/luci-app/base.sh)"
-```
-
 ### luci-app-diskman
 ```shell
 sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/360v6/luci-app/diskman.sh)"

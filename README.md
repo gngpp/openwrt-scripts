@@ -42,11 +42,24 @@ sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/mai
 ```
 > 提示类似符号”)“等报错，请删除`plugins(git)`行 
 
-
 ### 安装neofetch
 ```shell
 sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/neofetch.sh)"
 ```
+
+### filebrowser
+> 默认账号密码：`admin`
+> web: `http://ip:8080`
+```shell
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/filebrowser.sh)"
+```
+
+### speedtest-go
+> web: `http://ip:8989`
+```shell
+sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/speedtest-go.sh)"
+```
+
 ## 工具脚本
 - acme
 ```shell
