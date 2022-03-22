@@ -9,73 +9,73 @@
 ### 常用luci-app
 > 含：`ttyd`、 `uhttpd`等
 ```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/openwrt-packages/main/R4S/luci-app/base.sh)"
+sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/openwrt-packages/main/R4S/luci-app/base.sh)"
 ```
 
 ### luci-app-alist
 ```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/alist.sh)"
+sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/alist.sh)"
 ```
 
 ### luci-app-statistics
 ```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/statistics.sh)"
+sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/statistics.sh)"
 ```
 
 ### luci-app-filebrowser
 ```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/filebrowser.sh)"
+sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/filebrowser.sh)"
 ```
 
 ### luci-app-poweroff
 ```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/poweroff.sh)"
+sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/poweroff.sh)"
 ```
 
 ### luci-app-aliyundrive-fuse
 ```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/aliyundrive-fuse.sh)"
+sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/aliyundrive-fuse.sh)"
 ```
 
 ### luci-app-aliyundrive-webdav
 ```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/aliyundrive-webdav.sh)"
+sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/aliyundrive-webdav.sh)"
 ```
 
 ### luci-app-filetransfer
 ```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/filetransfer.sh)"
+sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/filetransfer.sh)"
 ```
 
 ### luci-app-ftpserver
 ```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/ftpserver.sh)"
+sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/ftpserver.sh)"
 ```
 
 ### luci-app-alidns
 
 ```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/alidns.sh)"
+sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/alidns.sh)"
 ```
 
 ### luci-app-nps、luci-app-npc
 ```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/nps-npc.sh)"
+sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/nps-npc.sh)"
 ```
 
 ### luci-app-adguardhome
 ```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/adguardhome.sh)"
+sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/adguardhome.sh)"
 ```
 
 ### luci-app-adbyby
 ```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/adbyby.sh)"
+sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/adbyby.sh)"
 ```
 
 ### luci-app-ttnode
 ```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/zf1976/packages/main/R4S/luci-app/ttnode.sh)"
+sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/ttnode.sh)"
 ```
 
 ### 使用nginx替换uhttpd
