@@ -39,6 +39,10 @@ sh -c "$(curl -sSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.s
 sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/openwrt-packages/main/R4S/zsh-plugins.sh)"
 # 360v6
 sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/openwrt-packages/main/360v6/zsh-plugins.sh)"
+
+# theme - powerlevel10k
+git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+# set ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshrc
 ```
 > 提示类似符号”)“等报错，请删除`plugins(git)`行 
 
