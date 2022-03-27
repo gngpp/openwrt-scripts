@@ -75,6 +75,58 @@ curl https://get.acme.sh | sh
 sh -c "$(curl -sSL http://fw.koolcenter.com/binary/ddnsto/openwrt/install_ddnsto.sh)"
 ```
 
+## 常用Nginx配置
+  - alist nginx config
+  ```shell
+  server {
+	listen 8080 ssl http2;
+	listen [::]:8080 ssl http2;
+
+	server_name xxx.com;
+	set $base /var/www/xx.com;
+	root $base/public;
+
+	# SSL
+	ssl_certificate /path/crt.crt;
+	ssl_certificate_key /path/key.key;
+
+	location / {
+      proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+      proxy_set_header Host $http_host;
+      proxy_set_header X-Real-IP $remote_addr;
+      proxy_redirect off;
+      proxy_pass http://127.0.0.1:5244;
+      # 上传的最大文件尺寸
+      client_max_body_size 20000m;
+  }
+}
+  ```
+  - filebrowser nginx config
+  ```shell
+  server {
+	listen 8888 ssl http2;
+	listen [::]:8888 ssl http2;
+
+	server_name xx.com;
+	set $base /var/www/xx.com;
+	root $base/public;
+
+	# SSL
+	ssl_certificate /path/crt.crt;
+	ssl_certificate_key /path/key.key;
+
+	location / {
+      proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+      proxy_set_header Host $http_host;
+      proxy_set_header X-Real-IP $remote_addr;
+      proxy_redirect off;
+      proxy_pass http://127.0.0.1:8080;
+      # 上传的最大文件尺寸
+      client_max_body_size 20000m;
+  }
+}
+  ```
+
 ## 小提示
 > 如果你路由空间不算大，建议把包安装在外置磁盘空间
 ```shell
