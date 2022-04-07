@@ -8,15 +8,15 @@
 
 ### 换源
 ```conf
-src/gz immortalwrt_base https://mirrors.vsean.net/openwrt/releases/21.02-SNAPSHOT/packages/aarch64_generic/base
+src/gz immortalwrt_base https://mirrors.vsean.net/openwrt/releases/packages-21.02/aarch64_generic/base
 
-src/gz immortalwrt_luci https://mirrors.vsean.net/openwrt/releases/21.02-SNAPSHOT/packages/aarch64_generic/luci
+src/gz immortalwrt_luci https://mirrors.vsean.net/openwrt/releases/packages-21.02/aarch64_generic/luci/
 
-src/gz immortalwrt_packages https://mirrors.vsean.net/openwrt/releases/21.02-SNAPSHOT/packages/aarch64_generic/packages
+src/gz immortalwrt_packages https://mirrors.vsean.net/openwrt/releases/packages-21.02/aarch64_generic/packages
 
-src/gz immortalwrt_routing https://mirrors.vsean.net/openwrt/releases/21.02-SNAPSHOT/packages/aarch64_generic/routing
+src/gz immortalwrt_routing https://mirrors.vsean.net/openwrt/releases/packages-21.02/aarch64_generic/routing
 
-src/gz immortalwrt_telephony https://mirrors.vsean.net/openwrt/releases/21.02-SNAPSHOT/packages/aarch64_generic/telephony
+src/gz immortalwrt_telephony https://mirrors.vsean.net/openwrt/releases/packages-21.02/aarch64_generic/telephony
 ```
 
 ### 常用luci-app
