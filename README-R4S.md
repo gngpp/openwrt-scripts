@@ -91,6 +91,11 @@ sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/adb
 sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/ttnode.sh)"
 ```
 
+### luci-app-onliner
+```shell
+sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/onliner.sh)"
+```
+
 ### 使用nginx替换uhttpd
 > 默认的uhttpd响应比较慢，建议替换为nginx。
 > 先停止uhttp修改端口或者卸载uhttp，否则会端口冲突
