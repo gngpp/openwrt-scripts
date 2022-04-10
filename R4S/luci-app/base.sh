@@ -6,7 +6,7 @@ opkg install luci-app-acme luci-i18n-acme-zh-cn ttyd luci-i18n-ttyd-zh-cn luci-a
 
 opkg install luci-app-syncthing luci-i18n-syncthing-zh-cn luci-app-uhttpd luci-i18n-uhttpd-zh-cn luci-app-minidlna luci-i18n-minidlna-zh-cn luci-i18n-samba4-zh-cn luci-app-samba4 luci-app-watchcat luci-i18n-watchcat-zh-cn luci-app-wol luci-i18n-wol-zh-cn luci-app-lxc luci-i18n-lxc-zh-cn
 
-opkg install luci-app-advancedsetting luci-i18n-advancedsetting-zh-cn luci-app-omcproxy luci-i18n-omcproxy-zh-cn luci-app-verysync luci-i18n-verysync-zh-cn
+opkg install luci-app-gowebdav luci-app-gowebdav-zh-cn luci-app-advancedsetting luci-i18n-advancedsetting-zh-cn luci-app-omcproxy luci-i18n-omcproxy-zh-cn luci-app-verysync luci-i18n-verysync-zh-cn
 
 wget https://op.supes.top/packages/aarch64_generic/luci-app-accesscontrol_git-22.049.56376-f644175_all.ipk
 opkg install luci-app-accesscontrol_git-22.049.56376-f644175_all.ipk
