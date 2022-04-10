@@ -6,6 +6,7 @@
 
 <img src="./R4S/img/r4s.png"/>
 
+> 某些依赖自带库不包含，需要加入下面自定义源再进行安装下载插件，取消签名检测
 ### 换源
 ```conf
 src/gz immortalwrt_base https://mirrors.vsean.net/openwrt/releases/packages-21.02/aarch64_generic/base
