@@ -32,7 +32,7 @@ sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/openwrt-packages/main/360v6/zs
 - 安装oh-my-zsh、zsh插件
 ```shell
 # oh-my-zsh
-sh -c "$(curl -sSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -sSL https://raw.fastgit.org/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # plugins
 # R4S
