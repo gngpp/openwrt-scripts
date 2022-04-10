@@ -128,7 +128,7 @@ sh -c "$(curl -sSL http://fw.koolcenter.com/binary/ddnsto/openwrt/install_ddnsto
   ```
 
 ## 小提示
-> 如果你路由空间不算大，建议把包安装在外置磁盘空间
+1. 如果你路由空间不算大，建议把包安装在外置磁盘空间
 ```shell
 echo "dest usb /mnt/opkg" >> /etc/opkg.conf
 # 重启shell会重置，把下面这条放在`/etc/profile` 就可以保存了
@@ -138,7 +138,7 @@ export PATH=$PATH:/mnt/opkg/usr/bin:/mnt/opkg/usr/sbin
 # 安装package时指定安装目录
 opkg install git -d usb
 ```
-> 直接扩容根分区`/`，根目录准备，确保使用以下命令来复制根文件系统
+2. 直接扩容根分区`/`，根目录准备，确保使用以下命令来复制根文件系统
 ```shell
 mkdir -p /tmp/introot
 mkdir -p /tmp/extroot
