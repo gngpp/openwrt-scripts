@@ -8,10 +8,4 @@ opkg install luci-app-syncthing luci-i18n-syncthing-zh-cn luci-app-uhttpd luci-i
 
 opkg install luci-app-hd-idle luci-i18n-hd-idle-zh-cn luci-app-gowebdav luci-app-gowebdav-zh-cn luci-app-advancedsetting luci-i18n-advancedsetting-zh-cn luci-app-omcproxy luci-i18n-omcproxy-zh-cn luci-app-verysync luci-i18n-verysync-zh-cn
 
-wget https://op.supes.top/packages/aarch64_generic/luci-app-accesscontrol_git-22.049.56376-f644175_all.ipk
-opkg install luci-app-accesscontrol_git-22.049.56376-f644175_all.ipk
-rm ./luci-app-accesscontrol_git-22.049.56376-f644175_all.ipk
-
-wget https://op.supes.top/packages/aarch64_generic/luci-app-rclone_git-22.049.56376-f644175_all.ipk
-opkg install luci-app-rclone_git-22.049.56376-f644175_all.ipk
-rm luci-app-rclone_git-22.049.56376-f644175_all.ipk
+opkg install luci-app-rclone luci-i18n-rclone-zh-cn
