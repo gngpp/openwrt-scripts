@@ -36,11 +36,6 @@ sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/ali
 sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/statistics.sh)"
 ```
 
-### luci-app-filebrowser
-```shell
-sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/filebrowser.sh)"
-```
-
 ### luci-app-poweroff
 ```shell
 sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/poweroff.sh)"
