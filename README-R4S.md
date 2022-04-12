@@ -77,11 +77,6 @@ sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/nps
 sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/adguardhome.sh)"
 ```
 
-### luci-app-adbyby
-```shell
-sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/adbyby.sh)"
-```
-
 ### luci-app-ttnode
 ```shell
 sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/packages/main/R4S/luci-app/ttnode.sh)"
