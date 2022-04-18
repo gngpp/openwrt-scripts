@@ -74,6 +74,10 @@ curl https://get.acme.sh | sh
 ```shell
 sh -c "$(curl -sSL http://fw.koolcenter.com/binary/ddnsto/openwrt/install_ddnsto.sh)"
 ```
+- Linkease
+```shell
+sh -c "$(curl -sSL http://fw.koolcenter.com/binary/LinkEase/Openwrt/install_linkease.sh)"
+```
 
 ## 常用Nginx配置
   - alist nginx config
