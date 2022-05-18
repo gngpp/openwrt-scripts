@@ -154,3 +154,10 @@ tar -C /tmp/introot -cvf - . | tar -C /tmp/extroot -xf -
 umount /tmp/introot
 umount /tmp/extroot
 ```
+
+3. zerotier hosts example
+```
+192.168.194.1 openv6.inner.ccn
+192.168.194.2 pve.inner.cn
+192.168.194.5 n1.inner.cn
+```
