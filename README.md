@@ -132,6 +132,19 @@ sh -c "$(curl -sSL http://fw.koolcenter.com/binary/LinkEase/Openwrt/install_link
     }
 }
   ```
+  
+ - docker run jellyfin
+ ```shell
+ docker run -d --name jellyfin --privileged=true \
+  -v /extend/disk/jellyfin/config:/config \
+  -v /extend/disk/jellyfin/cache:/cache \
+  -v /extend/mnt/:/media \
+  -p 8096:8096 \
+  --device=/dev/dri/renderD128 \
+  --device /dev/dri/card0:/dev/dri/card0 \
+  --restart unless-stopped \
+  jellyfin/jellyfin
+ ```
 
 ## 小提示
 1. 如果你路由空间不算大，建议把包安装在外置磁盘空间
