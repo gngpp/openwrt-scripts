@@ -11,14 +11,14 @@
 ### 安装基本工具包
 > 含：`vim`、`cfdisk`、`rsync`、`git`、`git-http`、`usbutils`、`pciutils`、`lsof`、`coreutils-nohup`
 ```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/packages/main/base.sh)"
+sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/base.sh)"
 ```
 
 ### 安装开发工具包
 > 含：`golang`、 `erlang`、`rust`
 
 ```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/packages/main/dev.sh)"
+sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/dev.sh)"
 ```
 
 ### 安装zsh、oh-my-zsh、插件
