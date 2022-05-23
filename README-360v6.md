@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://github.com/zf1976/packages/blob/main/README.md">README</a> | <a href="https://github.com/zf1976/packages/blob/main/README-R4S.md">R4S</a> | <a href="https://github.com/zf1976/packages/blob/main/README-360v6.md">360v6</a>
+    <a href="https://github.com/gngpp/packages/blob/main/README.md">README</a> | <a href="https://github.com/gngpp/packages/blob/main/README-R4S.md">R4S</a> | <a href="https://github.com/gngpp/packages/blob/main/README-360v6.md">360v6</a>
 </p>
 
 # 360v6
@@ -18,25 +18,25 @@ src/gz immortalwrt_telephony https://mirrors.vsean.net/openwrt/releases/21.02-SN
 ```
 ### git、git-http
 ```shell
-sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/openwrt-packages/main/360v6/git.sh)"
+sh -c "$(curl -sSL https://raw.fastgit.org/gngpp/openwrt-packages/main/360v6/git.sh)"
 ```
 
 ### luci-app-diskman
 ```shell
-sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/openwrt-packages/main/360v6/luci-app/diskman.sh)"
+sh -c "$(curl -sSL https://raw.fastgit.org/gngpp/openwrt-packages/main/360v6/luci-app/diskman.sh)"
 ```
 
 ### luci-app-frpc、luci-app-frps
 ```shell
-sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/openwrt-packages/main/360v6/luci-app/frpc-frps.sh)"
+sh -c "$(curl -sSL https://raw.fastgit.org/gngpp/openwrt-packages/main/360v6/luci-app/frpc-frps.sh)"
 ```
 
 ### luci-app-filebrowser
 ```shell
-sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/openwrt-packages/main/360v6/luci-app/filebrowser.sh)"
+sh -c "$(curl -sSL https://raw.fastgit.org/gngpp/openwrt-packages/main/360v6/luci-app/filebrowser.sh)"
 ```
 
 ### luci-app-alist
 ```shell
-sh -c "$(curl -sSL https://raw.fastgit.org/zf1976/openwrt-packages/main/360v6/luci-app/alist.sh)"
+sh -c "$(curl -sSL https://raw.fastgit.org/gngpp/openwrt-packages/main/360v6/luci-app/alist.sh)"
 ```
