@@ -11,34 +11,34 @@
 ### 安装基本工具包
 > 含：`vim`、`cfdisk`、`rsync`、`git`、`git-http`、`usbutils`、`pciutils`、`lsof`、`coreutils-nohup`
 ```shell
-sh -c "$(curl -sSL https://raw.fastgit.org/gngpp/packages/main/base.sh)"
+sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/packages/main/base.sh)"
 ```
 
 ### 安装开发工具包
 > 含：`golang`、 `erlang`、`rust`
 
 ```shell
-sh -c "$(curl -sSL https://raw.fastgit.org/gngpp/packages/main/dev.sh)"
+sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/packages/main/dev.sh)"
 ```
 
 ### 安装zsh、oh-my-zsh、插件
 - 安装zsh
 ```shell
 # R4S
-sh -c "$(curl -sSL https://raw.fastgit.org/gngpp/openwrt-packages/main/R4S/zsh.sh)"
+sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/R4S/zsh.sh)"
 # 360v6
-sh -c "$(curl -sSL https://raw.fastgit.org/gngpp/openwrt-packages/main/360v6/zsh.sh)"
+sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/360v6/zsh.sh)"
 ```
 - 安装oh-my-zsh、zsh插件
 ```shell
 # oh-my-zsh
-sh -c "$(curl -sSL https://raw.fastgit.org/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -sSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # plugins
 # R4S
-sh -c "$(curl -sSL https://raw.fastgit.org/gngpp/openwrt-packages/main/R4S/zsh-plugins.sh)"
+sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/R4S/zsh-plugins.sh)"
 # 360v6
-sh -c "$(curl -sSL https://raw.fastgit.org/gngpp/openwrt-packages/main/360v6/zsh-plugins.sh)"
+sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/360v6/zsh-plugins.sh)"
 
 # theme - powerlevel10k
 git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
@@ -48,20 +48,20 @@ git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$H
 
 ### 安装neofetch
 ```shell
-sh -c "$(curl -sSL https://raw.fastgit.org/gngpp/openwrt-packages/main/neofetch.sh)"
+sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/neofetch.sh)"
 ```
 
 ### filebrowser
 > 默认账号密码：`admin`
 > web: `http://ip:8080`
 ```shell
-sh -c "$(curl -sSL https://raw.fastgit.org/gngpp/openwrt-packages/main/filebrowser.sh)"
+sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/filebrowser.sh)"
 ```
 
 ### speedtest-go
 > web: `http://ip:8989`
 ```shell
-sh -c "$(curl -sSL https://raw.fastgit.org/gngpp/openwrt-packages/main/speedtest-go.sh)"
+sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/speedtest-go.sh)"
 ```
 
 ## 工具脚本
