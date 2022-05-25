@@ -79,7 +79,7 @@ sh -c "$(curl -sSL http://fw.koolcenter.com/binary/ddnsto/openwrt/install_ddnsto
 sh -c "$(curl -sSL http://fw.koolcenter.com/binary/LinkEase/Openwrt/install_linkease.sh)"
 ```
 
-## 常用Nginx配置
+## 常用配置
   - alist nginx config
   ```shell
   server {
