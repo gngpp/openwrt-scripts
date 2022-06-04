@@ -62,19 +62,9 @@ sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main
 sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/R4S/luci-app/alidns.sh)"
 ```
 
-### luci-app-nps、luci-app-npc
-```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/R4S/luci-app/nps-npc.sh)"
-```
-
 ### luci-app-adguardhome
 ```shell
 sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/R4S/luci-app/adguardhome.sh)"
-```
-
-### luci-app-onliner
-```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/R4S/luci-app/onliner.sh)"
 ```
 
 ### 使用nginx替换uhttpd
