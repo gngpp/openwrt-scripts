@@ -10,4 +10,4 @@ opkg install luci-app-hd-idle luci-i18n-hd-idle-zh-cn luci-app-gowebdav luci-i18
 
 opkg install luci-app-rclone luci-i18n-rclone-zh-cn luci-app-filebrowser luci-app-speederv2 luci-i18n-speederv2-zh-cn
 
-opkg install adbyby luci-app-adbyby-plus luci-i18n-adbyby-plus-zh-cn gost	luci-app-gost luci-i18n-gost-zh-cn
+opkg install adbyby luci-app-adbyby-plus luci-i18n-adbyby-plus-zh-cn gost	luci-app-gost luci-i18n-gost-zh-cn luci-app-filetransfer luci-i18n-filetransfer-zh-cn	
