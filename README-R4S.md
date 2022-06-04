@@ -51,11 +51,6 @@ sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main
 sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/R4S/luci-app/aliyundrive-webdav.sh)"
 ```
 
-### luci-app-filetransfer
-```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/R4S/luci-app/filetransfer.sh)"
-```
-
 ### luci-app-ftpserver
 ```shell
 sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/R4S/luci-app/ftpserver.sh)"
