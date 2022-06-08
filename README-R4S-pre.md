@@ -9,6 +9,16 @@
 sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/R4S/luci-app/alist.sh)"
 ```
 
+### luci-app-aliyundrive-fuse
+```shell
+sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/R4S/luci-app/aliyundrive-fuse.sh)"
+```
+
+### luci-app-aliyundrive-webdav
+```shell
+sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/R4S/luci-app/aliyundrive-webdav.sh)"
+```
+
 - install command line
 
 ```shell
