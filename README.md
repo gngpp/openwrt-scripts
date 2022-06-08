@@ -4,9 +4,6 @@
 
 # Openwrt packages
 所有插件都为网上收集的开源仓库插件
-- R4S适用于固件项目：https://github.com/QiuSimons/YAOF
-- 360V6适用于lean固件 v22.3.8
-
 
 ### 安装基本工具包
 > 含：`vim`、`cfdisk`、`rsync`、`git`、`git-http`、`usbutils`、`pciutils`、`lsof`、`coreutils-nohup`
@@ -48,7 +45,7 @@ git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$H
 
 ### 安装neofetch
 ```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/neofetch.sh)"
+sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/neofetch.sh)" -s "-i"
 ```
 
 ### filebrowser
@@ -132,7 +129,7 @@ sh -c "$(curl -sSL http://fw.koolcenter.com/binary/LinkEase/Openwrt/install_link
     }
 }
   ```
-  
+
  - docker run jellyfin
  ```shell
  docker run -d --name jellyfin --privileged=true \
@@ -148,7 +145,7 @@ sh -c "$(curl -sSL http://fw.koolcenter.com/binary/LinkEase/Openwrt/install_link
  - docker portainer
  ```shell
  docker run -d -p 9000:9000 -p 8000:8000 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /$PWD/portainer/data:/data portainer/portainer
-```
+ ```
 
 ## 小提示
 1. 如果你路由空间不算大，建议把包安装在外置磁盘空间

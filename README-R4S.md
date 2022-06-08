@@ -3,10 +3,10 @@
 </p>
 
 # R4S
-
+- R4S适用于固件项目：https://github.com/QiuSimons/YAOF
+> 某些依赖自带库不包含，需要加入下面自定义源再进行安装下载插件，取消签名检测
 <img src="./R4S/img/r4s.png"/>
 
-> 某些依赖自带库不包含，需要加入下面自定义源再进行安装下载插件，取消签名检测
 ### 换源
 ```conf
 src/gz immortalwrt_base https://mirrors.vsean.net/openwrt/releases/packages-21.02/aarch64_generic/base
@@ -36,11 +36,6 @@ sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main
 sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/R4S/luci-app/statistics.sh)"
 ```
 
-### luci-app-poweroff
-```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/R4S/luci-app/poweroff.sh)"
-```
-
 ### luci-app-aliyundrive-fuse
 ```shell
 sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/R4S/luci-app/aliyundrive-fuse.sh)"
@@ -67,4 +62,4 @@ wget https://raw.githubusercontent.com/gngpp/openwrt-packages/main/R4S/nginx.sh 
 ```shell
 /etc/init.d/uhttpd stop
 opkg update && opkg install nginx
-``` 
+```
