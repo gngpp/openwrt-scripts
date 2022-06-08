@@ -142,10 +142,22 @@ sh -c "$(curl -sSL http://fw.koolcenter.com/binary/LinkEase/Openwrt/install_link
   --restart unless-stopped \
   jellyfin/jellyfin
  ```
+ 
  - docker portainer
  ```shell
  docker run -d -p 9000:9000 -p 8000:8000 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /$PWD/portainer/data:/data portainer/portainer
  ```
+ 
+ - qinglong
+```shell
+docker run -dit \
+  -v $PWD/ql:/ql/data \
+  -p 5700:5700 \
+  --name qinglong \
+  --hostname qinglong \
+  --restart unless-stopped \
+  whyour/qinglong:latest
+```
 
 ## 小提示
 1. 如果你路由空间不算大，建议把包安装在外置磁盘空间
