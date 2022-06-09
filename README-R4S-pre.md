@@ -28,4 +28,7 @@ $ opkg install filebrowser luci-app-filebrowser
 # 默认安装docker全家桶
 $ opkg install luci-i18n-dockerman-zh-cn luci-app-dockerman
 $ opkg install opkg install git git-http usbutils pciutils lsof coreutils-nohup
+# GPU
+$ opkg install kmod-drm-panfrost
+$ opkg install luci-app-aliddns luci-i18n-aliddns-zh-cn
 ```
