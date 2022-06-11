@@ -34,5 +34,4 @@ $ opkg install luci-app-aliddns luci-i18n-aliddns-zh-cn luci-app-vlmcsd
 $ opkg install luci-app-advancedsetting luci-i18n-advancedsetting-zh-cn
 $ opkg install luci-app-accesscontrol luci-i18n-accesscontrol-zh-cn
 $ opkg install luci-app-upnp luci-i18n-upnp-zh-cn
-$ opkg install luci-app-nlbwmon	luci-i18n-nlbwmon-zh-cn adbyby luci-app-adbyby-plus	luci-i18n-adbyby-plus-zh-cn
 ```
