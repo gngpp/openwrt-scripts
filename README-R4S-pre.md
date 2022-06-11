@@ -25,7 +25,13 @@ sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main
 $ opkg update
 $ opkg install luci-app-onliner luci-i18n-onliner-zh-cn
 $ opkg install filebrowser luci-app-filebrowser
-# 默认安装docker全家桶
+# 默认安装docker全家桶,20.10.16-1版本docker有bug，每次重启停止iptables规则不会清除，并且每次启动容器，容器ip会变，因为iptables规则没清楚导致规则混乱，iptables nat这边就出问题，lan口设备无法访问映射端口的容器
 $ opkg install luci-i18n-dockerman-zh-cn luci-app-dockerman
-$ opkg install opkg install git git-http usbutils pciutils lsof coreutils-nohup
+$ opkg install git git-http usbutils pciutils lsof coreutils-nohup
+# GPU
+$ opkg install kmod-drm-panfrost
+$ opkg install luci-app-aliddns luci-i18n-aliddns-zh-cn luci-app-vlmcsd
+$ opkg install luci-app-advancedsetting luci-i18n-advancedsetting-zh-cn
+$ opkg install luci-app-accesscontrol luci-i18n-accesscontrol-zh-cn
+$ opkg install luci-app-upnp luci-i18n-upnp-zh-cn
 ```
