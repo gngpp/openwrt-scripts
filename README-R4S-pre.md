@@ -41,5 +41,6 @@ $ opkg install luci-app-syncthing luci-app-timecontrol luci-app-unblockneteasemu
 # Control
 $ opkg install luci-app-weburl luci-i18n-weburl-zh-cn luci-app-webrestriction luci-i18n-webrestriction-zh-cn luci-app-uugamebooster luci-i18n-uugamebooster-zh-cn luci-app-timewol luci-i18n-timewol-zh-cn luci-app-wol luci-i18n-wol-zh-cn
 $ opkg install luci-app-ramfree	luci-i18n-ramfree-zh-cn luci-app-vssr luci-i18n-vssr-zh-cn
+$ opkg install baidupcs-web luci-app-baidupcs-web
 ```
 [参考-packages](https://doc.openwrt.cc/1-General/7-Packages/)
