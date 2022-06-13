@@ -1,6 +1,6 @@
 # https://github.com/klever1988/nanopi-openwrt/raw/master/scripts/autoupdate.sh
 # 参考这个脚本，但是我脚本支持 squashfs 格式的升级，以及支持其他人固件切换到我的固件来
-# 目前只支持r2s
+# 目前只支持r4s
 #!/bin/sh
 
 # 更新工具依赖
