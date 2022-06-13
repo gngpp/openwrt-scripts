@@ -34,9 +34,8 @@ $ opkg install luci-app-aliddns luci-i18n-aliddns-zh-cn luci-app-vlmcsd
 $ opkg install luci-app-advancedsetting luci-i18n-advancedsetting-zh-cn
 $ opkg install luci-app-accesscontrol luci-i18n-accesscontrol-zh-cn
 $ opkg install luci-app-upnp luci-i18n-upnp-zh-cn
-$ opkg install luci-app-advancedsetting luci-i18n-advancedsetting-zh-cn
-$ opkg install luci-app-appfilter luci-i18n-appfilter-zh-cn luci-i18n-beardropper luci-i18n-beardropper-zh-cn
-$ opkg install luci-i18n-gost luci-i18n-gost-zh-cn
+$ opkg install luci-app-appfilter luci-i18n-appfilter-zh-cn luci-app-beardropper luci-i18n-beardropper-zh-cn
+$ opkg install luci-app-gost luci-i18n-gost-zh-cn
 $ opkg install luci-app-syncthing luci-app-timecontrol luci-app-unblockneteasemusic-go UnblockNeteaseMusic-Go
 # Control
 $ opkg install luci-app-weburl luci-i18n-weburl-zh-cn luci-app-webrestriction luci-i18n-webrestriction-zh-cn luci-app-uugamebooster luci-i18n-uugamebooster-zh-cn luci-app-timewol luci-i18n-timewol-zh-cn luci-app-wol luci-i18n-wol-zh-cn
