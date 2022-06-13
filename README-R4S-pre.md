@@ -44,3 +44,12 @@ $ opkg install luci-app-ramfree	luci-i18n-ramfree-zh-cn luci-app-vssr luci-i18n-
 $ opkg install baidupcs-web luci-app-baidupcs-web
 ```
 [参考-packages](https://doc.openwrt.cc/1-General/7-Packages/)
+
+- squashfs固件在线升级自动扩容
+
+> 请创建一个新分区，并且挂载到/opt路径，之后把固件xx.img.gz放到/opt路径中再执行升级扩容脚本。
+
+```shell
+sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/update.sh)"
+```
+
