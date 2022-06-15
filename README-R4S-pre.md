@@ -41,6 +41,7 @@ $ opkg install luci-app-syncthing luci-app-timecontrol luci-app-unblockneteasemu
 $ opkg install luci-app-weburl luci-i18n-weburl-zh-cn luci-app-webrestriction luci-i18n-webrestriction-zh-cn luci-app-uugamebooster luci-i18n-uugamebooster-zh-cn luci-app-timewol luci-i18n-timewol-zh-cn luci-app-wol luci-i18n-wol-zh-cn
 $ opkg install luci-app-ramfree	luci-i18n-ramfree-zh-cn luci-app-vssr luci-i18n-vssr-zh-cn
 $ opkg install baidupcs-web luci-app-baidupcs-web
+$ opkg install luci-app-uhttpd luci-i18n-uhttpd-zh-cn luci-app-vnstat luci-i18n-vnstat-zh-cn luci-app-arpbind luci-i18n-arpbind-zh-cn luci-app-pppoe-server	luci-i18n-pppoe-server-zh-cn luci-app-rclone luci-i18n-rclone-zh-cn
 ```
 [参考-packages](https://doc.openwrt.cc/1-General/7-Packages/)
 
@@ -49,6 +50,7 @@ $ opkg install baidupcs-web luci-app-baidupcs-web
 > 请创建一个新分区，并且挂载到/opt路径，之后把固件xx.img.gz放到/opt路径中再执行升级扩容脚本。
 
 ```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/update.sh)"
+$ wget curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/update.sh
+$ SKIP_BACK=1 bash -x /update.sh
 ```
 
