@@ -17,6 +17,12 @@ src/gz immortalwrt_routing https://mirrors.vsean.net/openwrt/releases/21.02-SNAP
 src/gz immortalwrt_telephony https://mirrors.vsean.net/openwrt/releases/21.02-SNAPSHOT/packages/aarch64_cortex-a53/telephony
 
 ```
+
+### luci-app-uhttpd luci-i18n-uhttpd-zh-cn luci-app-nlbwmon luci-i18n-nlbwmon-zh-cn frpc frps luci-app-frpc luci-app-frps luci-i18n-frpc-zh-cn luci-i18n-frps-zh-cn
+```shell
+sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/360v6/luci-app/bash.sh)"
+```
+
 ### git、git-http
 ```shell
 sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/360v6/git.sh)"
