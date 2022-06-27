@@ -18,9 +18,10 @@ src/gz immortalwrt_telephony https://mirrors.vsean.net/openwrt/releases/21.02-SN
 
 ```
 
-### luci-app-uhttpd luci-i18n-uhttpd-zh-cn luci-app-nlbwmon luci-i18n-nlbwmon-zh-cn frpc frps luci-app-frpc luci-app-frps luci-i18n-frpc-zh-cn luci-i18n-frps-zh-cn
+### base
+> luci-app-uhttpd luci-i18n-uhttpd-zh-cn luci-app-nlbwmon luci-i18n-nlbwmon-zh-cn frpc frps luci-app-frpc luci-app-frps luci-i18n-frpc-zh-cn luci-i18n-frps-zh-cn
 ```shell
-sh -c "$(curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/360v6/luci-app/bash.sh)"
+sh -c "$([curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/360v6/luci-app/bash.sh](https://raw.githubusercontent.com/gngpp/openwrt-packages/main/360v6/luci-app/base.sh))"
 ```
 
 ### git、git-http
