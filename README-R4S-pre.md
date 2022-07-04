@@ -33,7 +33,6 @@ $ opkg install luci-app-autoreboot luci-i18n-autoreboot-zh-cn
 $ opkg install kmod-drm-panfrost
 $ opkg install luci-app-aliddns luci-i18n-aliddns-zh-cn luci-app-vlmcsd
 $ opkg install luci-app-advancedsetting luci-i18n-advancedsetting-zh-cn
-$ opkg install luci-app-accesscontrol luci-i18n-accesscontrol-zh-cn
 $ opkg install luci-app-upnp luci-i18n-upnp-zh-cn
 $ opkg install luci-app-appfilter luci-i18n-appfilter-zh-cn luci-app-beardropper luci-i18n-beardropper-zh-cn
 $ opkg install luci-app-gost luci-i18n-gost-zh-cn
