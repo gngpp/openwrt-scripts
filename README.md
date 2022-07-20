@@ -88,8 +88,8 @@ sh -c "$(curl -sSL http://fw.koolcenter.com/binary/LinkEase/Openwrt/install_link
 	root $base/public;
 
 	# SSL
-	ssl_certificate /path/crt.crt;
-	ssl_certificate_key /path/key.key;
+	ssl_certificate /etc/pve/nodes/pve/pveproxy-ssl.pem;
+	ssl_certificate_key /etc/pve/nodes/pve/pveproxy-ssl.key;
 
 	location / {
 	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -115,8 +115,8 @@ sh -c "$(curl -sSL http://fw.koolcenter.com/binary/LinkEase/Openwrt/install_link
 	root $base/public;
 
 	# SSL
-	ssl_certificate /path/crt.crt;
-	ssl_certificate_key /path/key.key;
+	ssl_certificate /etc/pve/nodes/pve/pveproxy-ssl.pem;
+	ssl_certificate_key /etc/pve/nodes/pve/pveproxy-ssl.key;
 
 	location / {
       		proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
