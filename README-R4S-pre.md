@@ -51,6 +51,6 @@ $ opkg install luci-app-uhttpd luci-i18n-uhttpd-zh-cn luci-app-vnstat luci-i18n-
 
 ```shell
 $ wget https://raw.githubusercontent.com/gngpp/openwrt-packages/main/update.sh
-$ SKIP_BACK=1 bash -x /update.sh
+$ SKIP_BACK=1 bash -x ./update.sh
 ```
 
