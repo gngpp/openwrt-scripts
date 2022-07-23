@@ -50,7 +50,7 @@ $ opkg install luci-app-uhttpd luci-i18n-uhttpd-zh-cn luci-app-vnstat luci-i18n-
 > 请创建一个新分区，并且挂载到/opt路径，之后把固件xx.img.gz放到/opt路径中再执行升级扩容脚本。
 
 ```shell
-$ wget curl -sSL https://raw.githubusercontent.com/gngpp/openwrt-packages/main/update.sh
+$ wget https://raw.githubusercontent.com/gngpp/openwrt-packages/main/update.sh
 $ SKIP_BACK=1 bash -x /update.sh
 ```
 
