@@ -47,7 +47,7 @@ $ opkg install luci-app-uhttpd luci-i18n-uhttpd-zh-cn luci-app-vnstat luci-i18n-
 
 - squashfs固件在线升级自动扩容
 
-> 请创建一个新分区，并且挂载到/opt路径，之后把固件xx.img.gz放到/opt路径中再执行升级扩容脚本。
+> 请创建一个新分区，并且挂载到/opt路径，之后把固件压缩后文件名改为openwrt.img.gz放到/opt路径中再执行升级扩容脚本。
 
 ```shell
 $ wget https://raw.githubusercontent.com/gngpp/openwrt-packages/main/update.sh
