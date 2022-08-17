@@ -139,8 +139,8 @@ function registry_blob_download_op(){
 function r4s(){
     part_prefix=p
     tmp_mountpoint_end_size=2600MB
-    first_grow_condition_size=800
-    blob_layer_reg_str=r2s
+    first_grow_condition_size=1800
+    blob_layer_reg_str=r4s
     # [ ! -d /sys/block/$block_device ] && block_device='mmcblk1'
     update
 }
