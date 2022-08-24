@@ -16,6 +16,14 @@ src/gz immortalwrt_packages https://mirrors.vsean.net/openwrt/releases/21.02-SNA
 src/gz immortalwrt_routing https://mirrors.vsean.net/openwrt/releases/21.02-SNAPSHOT/packages/aarch64_cortex-a53/routing
 src/gz immortalwrt_telephony https://mirrors.vsean.net/openwrt/releases/21.02-SNAPSHOT/packages/aarch64_cortex-a53/telephony
 
+#or
+
+src/gz openwrt_base https://openwrt.888913.gq/aarch64_cortex-a53/base
+src/gz openwrt_luci https://openwrt.888913.gq/aarch64_cortex-a53/luci
+src/gz openwrt_packages https://openwrt.888913.gq/aarch64_cortex-a53/packages
+src/gz openwrt_routing https://openwrt.888913.gq/aarch64_cortex-a53/routing
+src/gz openwrt_telephony https://openwrt.888913.gq/aarch64_cortex-a53/telephony
+
 ```
 
 ### base
