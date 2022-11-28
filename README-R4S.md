@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/gngpp/packages/blob/main/README.md">README</a> | <a href="https://github.com/gngpp/packages/blob/main/README-R4S.md">R4S</a> | <a href="https://github.com/gngpp/packages/blob/main/README-360v6.md">360v6</a>
+  <a href="[https://github.com/gngpp/packages/blob/main/README.md](https://github.com/gngpp/openwrt-packages/blob/main/README.md)">README</a> | <a href="https://github.com/gngpp/packages/blob/main/README-R4S.md">R4S</a> | <a href="https://github.com/gngpp/packages/blob/main/README-360v6.md">360v6</a>
 </p>
 
 # R4S
