@@ -11,4 +11,4 @@ EOF
 
 cat /etc/opkg/distfeeds.conf
 
-opkg update && opkg install luci-app-passwall
+opkg update && opkg install luci-i18n-passwall-zh-cn
