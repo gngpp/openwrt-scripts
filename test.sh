@@ -1,4 +1,7 @@
 #!/bin/sh
+if [ -z "test.sh" ]; then
+  rm test.sh
+fi
 cat /etc/opkg/distfeeds.conf
 
 cat > /etc/opkg/distfeeds.conf <<EOF
